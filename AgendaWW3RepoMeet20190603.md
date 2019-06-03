@@ -3,7 +3,7 @@
 ### Participants:
 - Ifremer: Mickael
 - NCEP-EMC: Henrique, Jessica
-- UKMet: 
+- UKMet: Andy
 - USACE: Tyler
 
 1. WW3 Development meeting
@@ -22,7 +22,7 @@
     * Add documentation about regtests, when to use
   + Ali to publish prior to Wednesday meeting 
 - Status of regtests/matrix at trusted repos
-  + ERDC: Ty was able to run the matrix in one of ERDC computers, went through procedure, is further testing. Looks like all is running well, will move on to test with different branches.
+  + ERDC: Ty was able to run the matrix in one of ERDC computers, went through the procedure, is further testing. Looks like all is running well, will move on to test with different branches.
   + UKMO:
 
 3. Transferring branches Vlab-> github 
@@ -33,18 +33,18 @@
   + ERDC status? 
     * Ali planned to talk to Ty about it: needs following up
     * Ty thinks all is moved and ready to be deleted.
-  + Jessica will send out emails to individual users based on spreadsheet.
+  + Jessica will send out emails to individual users based on a spreadsheet.
     
 4. Updates on activities in each trusted repo
 - NCEP
   + Updated esmf feature branch (Makefile for NEMS applications), 
     * Uses generalized cmplr.env and comp/link.tmpl
     * New updates to be added this week
-    * When done will create branch to eliminate specific comp and link scripts (Henrique with Mickael)
-  + Status on strategy to port gridgen to GitHub?
+    * When done will create a branch to eliminate specific comp and link scripts (Henrique with Mickael)
+  + Status on the strategy to port gridgen to GitHub?
     * Henrique and Jessica and Ali will discuss this
-  + Status on current wiki page and GitFlow inconsistencies
-    * Jessica will update and send email prior to Wed meeting
+  + Status on the current wiki page and GitFlow inconsistencies
+    * Jessica will update and send an email prior to Wed meeting
   + Henrique added io page for code admin minutes/agenda.
 - ERDC
   + fix for triads
@@ -64,7 +64,7 @@
     * wind correction switch, missing in make_makefile
     * unstructured mesh boundary points, arrays out of index on open boundaries
       * Most should be considered hotfixes
-  + Finished devlopment for tidal constituents that were not working correctly
+  + Finished development for tidal constituents that were not working correctly
     * Will push to Ifremer dev branch this
 - UKMO
   + Issue with Cray parallel make
